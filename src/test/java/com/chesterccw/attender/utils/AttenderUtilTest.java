@@ -20,7 +20,7 @@ public class AttenderUtilTest {
 
     private Map<Integer, Employee> map = new LinkedHashMap<>();
     // 刷卡记录表路径
-    private String path = "filePath";
+    private String path = this.getClass().getResource("/201810.xls").getPath();
 
     /**
      * 测试获取 Attender 对象

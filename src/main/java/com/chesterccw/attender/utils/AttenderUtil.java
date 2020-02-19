@@ -350,6 +350,9 @@ public class AttenderUtil {
 
     /**
      * 输出
+     * e.g.
+     *      -----~21:22 代表 上班未打卡，下班打卡时间是 21:22
+     *      13:40~----- 代表 下班未打卡，上班打卡时间是 13:40
      * @param map 数据
      */
     private static void output(Map<Integer, Employee> map){
